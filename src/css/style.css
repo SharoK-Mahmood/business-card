@@ -1,0 +1,43 @@
+body{
+    margin: 20px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#profile-img{
+    width: 300px;
+}
+
+.card{
+    background-color:rgb(182, 231, 251);
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 600px;
+    
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    border-bottom: solid rgb(239, 237, 239) 20px;
+    
+}
+
+.card:hover{
+    transition-duration: 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+
+
+.text-class{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.text-class h1{
+    text-shadow: 2px 2px 5px rgb(218, 233, 233);
+}
+
+
